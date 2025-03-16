@@ -6,7 +6,19 @@
 /*   By: rfani <rfani@student.42firenze.it>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/16 22:52:33 by rfani             #+#    #+#             */
-/*   Updated: 2025/03/16 22:52:34 by rfani            ###   ########.fr       */
+/*   Updated: 2025/03/16 23:12:26 by rfani            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libftprintf.h"
+
+t_arg	ft_conv_percent(void);
+
+t_arg	ft_conv_percent(void)
+{
+	t_arg	arg;
+
+	arg.content = "%";
+	arg.length = 1;
+	return (arg);
+}

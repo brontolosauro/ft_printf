@@ -6,7 +6,7 @@
 /*   By: rfani <rfani@student.42firenze.it>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/14 18:10:26 by rfani             #+#    #+#             */
-/*   Updated: 2025/03/16 22:48:22 by rfani            ###   ########.fr       */
+/*   Updated: 2025/03/16 23:08:46 by rfani            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,6 @@ t_arg	ft_conv_int(va_list args);
 t_arg	ft_conv_uint(va_list args);
 t_arg	ft_conv_hex(va_list args);
 t_arg	ft_conv_HEX(va_list args);
-t_arg	ft_conv_percent(va_list args);
+t_arg	ft_conv_percent(void);
 
 #endif
