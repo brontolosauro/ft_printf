@@ -6,7 +6,7 @@
 /*   By: rfani <rfani@student.42firenze.it>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/16 22:52:28 by rfani             #+#    #+#             */
-/*   Updated: 2025/03/16 23:50:22 by rfani            ###   ########.fr       */
+/*   Updated: 2025/03/17 00:49:11 by rfani            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 #include "libft/libft.h"
 #include <stdarg.h>
 
-t_arg	ft_conv_char(va_list args);
+t_arg	ft_conv_int(va_list args);
 
-t_arg	ft_conv_char(va_list args)
+t_arg	ft_conv_int(va_list args)
 {
 	t_arg	arg;
 	int		n;
