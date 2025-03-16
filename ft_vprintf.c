@@ -6,13 +6,12 @@
 /*   By: rfani <rfani@student.42firenze.it>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/15 14:39:10 by rfani             #+#    #+#             */
-/*   Updated: 2025/03/16 22:48:39 by rfani            ###   ########.fr       */
+/*   Updated: 2025/03/16 23:32:41 by rfani            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libftprintf.h"
 #include "libft/libft.h"
-#include <__stdarg_va_list.h>
 #include <stdarg.h>
 
 int	ft_vprintf(const char *format, va_list args);

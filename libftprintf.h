@@ -6,14 +6,13 @@
 /*   By: rfani <rfani@student.42firenze.it>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/14 18:10:26 by rfani             #+#    #+#             */
-/*   Updated: 2025/03/16 23:08:46 by rfani            ###   ########.fr       */
+/*   Updated: 2025/03/16 23:16:08 by rfani            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFTPRINTF_H
 # define LIBFTPRINTF_H
 # include "libft/libft.h"
-# include <__stdarg_va_list.h>
 # include <stdarg.h>
 
 typedef struct s_arg
