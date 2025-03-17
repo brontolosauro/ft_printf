@@ -22,17 +22,18 @@ ARFLAGS = rcs
 all : $(LIBFT) $(NAME)
 
 $(LIBFT):
-	$(MAKE) -C $(LIBFT)
+	$(MAKE) -C $(LIBFT_DIR)
 
-$(NAME) : libftprintf.h $(OBJ) $(LIBFT)
-	ar rcs $(NAME) $(OBJ)
+$(NAME) : ft_printf.h $(OBJ) $(LIBFT)
+	ar x $(LIBFT)
+	ar  rcs $(NAME) $(OBJ) *.o
 
 clean :
 	$(MAKE) -C $(LIBFT_DIR) clean
-	rm -f $(OBJ)
+	rm -f $(OBJ) *.o
 
 fclean : clean
 	$(MAKE) -C $(LIBFT_DIR) fclean
-	rm -f $(NAME)
+	rm -f $(NAME) *.o
 
 re : fclean all

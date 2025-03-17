@@ -1,18 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_conv_HEX.c                                      :+:      :+:    :+:   */
+/*   ft_conv_chex.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rfani <rfani@student.42firenze.it>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/16 22:52:25 by rfani             #+#    #+#             */
-/*   Updated: 2025/03/17 01:31:56 by rfani            ###   ########.fr       */
+/*   Updated: 2025/03/17 11:49:32 by rfani            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libftprintf.h"
-#include "libft/libft.h"
 #include <stdarg.h>
+#include "libft/libft.h"
+#include "ft_printf.h"
 
 t_arg	ft_conv_chex(va_list args);
 

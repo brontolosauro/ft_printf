@@ -6,12 +6,13 @@
 /*   By: rfani <rfani@student.42firenze.it>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/17 00:07:11 by rfani             #+#    #+#             */
-/*   Updated: 2025/03/17 00:19:41 by rfani            ###   ########.fr       */
+/*   Updated: 2025/03/17 11:58:04 by rfani            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
-#include "libftprintf.h"
+#include "libft/libft.h"
+#include "ft_printf.h"
 
 char		*ft_uitoa(unsigned int n);
 static int	ft_n_digit(unsigned int n);

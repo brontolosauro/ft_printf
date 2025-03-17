@@ -6,12 +6,13 @@
 /*   By: rfani <rfani@student.42firenze.it>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/17 01:56:38 by rfani             #+#    #+#             */
-/*   Updated: 2025/03/17 02:00:29 by rfani            ###   ########.fr       */
+/*   Updated: 2025/03/17 11:53:14 by rfani            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
-#include "libftprintf.h"
+#include "libft/libft.h"
+#include "ft_printf.h"
 
 char		*ft_lxitoa(unsigned long int n);
 static int	ft_n_lhex_digit(unsigned long int n);

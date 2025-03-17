@@ -6,12 +6,13 @@
 /*   By: rfani <rfani@student.42firenze.it>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/15 16:12:02 by rfani             #+#    #+#             */
-/*   Updated: 2025/03/16 23:09:12 by rfani            ###   ########.fr       */
+/*   Updated: 2025/03/17 11:56:36 by rfani            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libftprintf.h"
+#include <stdlib.h>
 #include <stdarg.h>
+#include "ft_printf.h"
 
 t_arg	ft_parse_convspec(const char **format, va_list args);
 
@@ -36,7 +37,7 @@ t_arg	ft_parse_convspec(const char **format, va_list args)
 	if (*(*format) == 'x')
 		arg = ft_conv_hex(args);
 	if (*(*format) == 'X')
-		arg = ft_conv_HEX(args);
+		arg = ft_conv_chex(args);
 	if (*(*format) == '%')
 		arg = ft_conv_percent();
 	return (arg);

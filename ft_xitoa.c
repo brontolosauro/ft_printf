@@ -6,12 +6,13 @@
 /*   By: rfani <rfani@student.42firenze.it>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/17 01:02:45 by rfani             #+#    #+#             */
-/*   Updated: 2025/03/17 01:16:58 by rfani            ###   ########.fr       */
+/*   Updated: 2025/03/17 11:59:13 by rfani            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
-#include "libftprintf.h"
+#include "libft/libft.h"
+#include "ft_printf.h"
 
 char		*ft_xitoa(unsigned int n);
 static int	ft_n_hex_digit(unsigned int n);
