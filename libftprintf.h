@@ -6,7 +6,7 @@
 /*   By: rfani <rfani@student.42firenze.it>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/14 18:10:26 by rfani             #+#    #+#             */
-/*   Updated: 2025/03/17 01:32:13 by rfani            ###   ########.fr       */
+/*   Updated: 2025/03/17 02:01:57 by rfani            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,5 +34,6 @@ t_arg	ft_conv_chex(va_list args);
 t_arg	ft_conv_percent(void);
 char	*ft_uitoa(unsigned int n);
 char	*ft_xitoa(unsigned int n);
+char	*ft_lxitoa(unsigned long int n);
 
 #endif

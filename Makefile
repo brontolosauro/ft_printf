@@ -3,7 +3,7 @@ NAME = libftprintf.a
 SRC =	ft_printf.c ft_vprintf.c ft_parse_convspec.c ft_print_arg.c \
 		ft_conv_char.c ft_conv_str.c ft_conv_ptr.c ft_conv_int.c \
 		ft_conv_uint.c ft_conv_hex.c ft_conv_chex.c ft_conv_percent.c \
-		ft_uitoa.c ft_xitoa.c
+		ft_uitoa.c ft_xitoa.c ft_lxitoa.c
 
 
 OBJ = $(SRC:%.c=%.o)
