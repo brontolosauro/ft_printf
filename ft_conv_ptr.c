@@ -6,7 +6,7 @@
 /*   By: rfani <rfani@student.42firenze.it>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/16 22:52:37 by rfani             #+#    #+#             */
-/*   Updated: 2025/03/26 17:50:57 by rfani            ###   ########.fr       */
+/*   Updated: 2025/03/26 18:10:57 by rfani            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,8 +27,9 @@ t_arg	ft_conv_ptr(va_list args)
 	n = (unsigned long int)va_arg(args, void *);
 	if (!n)
 	{
-		str = ft_calloc(5, sizeof(char));
-		str = "(nil)";
+		prefix = "(nil)";
+		str = ft_calloc(ft_strlen(prefix) + 1, sizeof(char));
+		ft_strlcpy(str, prefix, ft_strlen(prefix) + 1);
 	}
 	else
 	{
