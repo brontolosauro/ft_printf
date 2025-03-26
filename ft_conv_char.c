@@ -6,7 +6,7 @@
 /*   By: rfani <rfani@student.42firenze.it>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/16 22:52:16 by rfani             #+#    #+#             */
-/*   Updated: 2025/03/26 16:40:34 by rfani            ###   ########.fr       */
+/*   Updated: 2025/03/26 20:02:52 by rfani            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,8 +30,8 @@ t_arg	ft_conv_char(va_list args)
 	}
 	else
 	{
-	arg.content = str;
-	arg.length = ft_strlen(str);
+		arg.content = str;
+		arg.length = ft_strlen(str);
 	}
 	return (arg);
 }
