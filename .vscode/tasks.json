@@ -30,8 +30,6 @@
 				"-fdiagnostics-color=always",
 				"-g",
 				"${file}",
-				"ft_printf.h",
-				"libft/libft.h",
 				"libftprintf.a"
 			],
 			"options": {
