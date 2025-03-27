@@ -6,7 +6,7 @@
 /*   By: rfani <rfani@student.42firenze.it>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/16 22:52:37 by rfani             #+#    #+#             */
-/*   Updated: 2025/03/26 18:10:57 by rfani            ###   ########.fr       */
+/*   Updated: 2025/03/27 11:52:20 by rfani            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,8 +35,8 @@ t_arg	ft_conv_ptr(va_list args)
 	{
 		prefix = "0x";
 		temp = ft_lxitoa(n);
-		str = ft_calloc(ft_strlen(temp) + 3, sizeof(char));
-		str = ft_strjoin(prefix, ft_lxitoa(n));
+		str = ft_strjoin(prefix, temp);
+		free(temp);
 	}
 	arg.content = str;
 	arg.length = ft_strlen(str);
